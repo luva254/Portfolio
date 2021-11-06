@@ -40,5 +40,13 @@ header {
     transition: all 0.3s case 0%;
 }
 .btn{
-    
+    padding: 9px 25px;
+    background-color:red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s case 0%;
+}
+.btn:hover{
+    background-color: red;
 }
