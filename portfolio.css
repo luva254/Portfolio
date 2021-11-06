@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:rgb(217, 220, 223);
+    /*background-color:rgb(217, 220, 223);*/
 
 }
 a,li,button{
@@ -19,7 +19,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 3%;
+    background-color:rgb(217, 220, 223);
+
 }
 .navbar-links{
     list-style: none;
