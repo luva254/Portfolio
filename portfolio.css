@@ -4,5 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    background-color:rgb(88, 124, 170);
+
+}
+a,li,button{
+    font-family: "Dongle",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
 }
