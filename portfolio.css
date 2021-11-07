@@ -24,6 +24,9 @@ header {
     align-items: center;
     /*padding: 10px 50%;*/
     background-color:rgb(81, 35, 165);
+    padding-bottom: 6px;
+    padding-top:6px;
+    margin-right: -15px;
     
 
 }
@@ -175,17 +178,26 @@ section{
     margin-top: -8px;
     margin-right: -20px;
 }
-.projects .flexbox{
+.flexbox{
     background-color: rgb(119, 116, 116);
     margin:  auto;
     display: flex;
     height: 70vh;
     width: 100%;
-    padding: 10px;
+    /*padding: 10px;*/
 }
-.projects .flexbox ,h2{
+h2{
     justify-content: center;
     font-family: "Dongle",sans-serif;
     font-size: 42px;
+    margin-left: 390px;
+    
 }
-
+ h3{
+    display: flex;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+}
