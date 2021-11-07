@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 1%;
-    background-color:rgb(217, 220, 223);
+    background-color:rgb(81, 35, 165);
 
 }
 .navbar-links{
@@ -62,7 +62,7 @@ header {
     min-height: 600px;
     font-family: "Dongle",sans-serif;
 }
-.container .flexbox{
+.container .contentbox{
     margin: auto 0 auto 70px ;
 
 }
