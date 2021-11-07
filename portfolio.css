@@ -25,6 +25,7 @@ header {
 }
 .navbar-links{
     list-style: none;
+    padding-right:100px;
     
 
 }
@@ -112,13 +113,46 @@ header {
     min-height: 600px;
     font-family: "Dongle",sans-serif;
 }*/
+section{
+    padding: px 0;
+}
 .about{
     font-family: "Dongle",sans-serif;
+    
+    
 }
 .about #center{
         
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 70%;
+    margin-left: 300px;
+}
+.about .title{
+    position: relative;
+    font-family: "Dongle",sans-serif;
+    text-align: center;
+    margin-right: -390px;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height:3px;
+    background: #000;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.about .about-content .left .img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    
 }
