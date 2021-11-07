@@ -18,4 +18,7 @@
 
 ## Project Name
 Portfolio Landing Page
-##
+## Project Description
+The project is based on a portfolio landing page displaying the skills and projects done by the owner of the portfolio
+##Demo
+[Demo]()
