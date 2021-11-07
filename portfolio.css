@@ -170,6 +170,11 @@ section{
     align-items: center;
     text-align: center;   
 }
+.projects {
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -20px;
+}
 .projects .flexbox{
     background-color: rgb(119, 116, 116);
     margin:  auto;
@@ -183,3 +188,4 @@ section{
     font-family: "Dongle",sans-serif;
     font-size: 42px;
 }
+
