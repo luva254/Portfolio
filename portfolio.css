@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
 *{
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
     margin: 0;
     padding: 0;
     /*background-color:rgb(217, 220, 223);*/
 
 }
+
 a,li,button{
     font-family: "Dongle",sans-serif;
     font-size: 30px;
@@ -26,6 +27,8 @@ header {
 .navbar-links{
     list-style: none;
     padding-right:100px;
+    padding: auto;
+
     
 
 }
@@ -103,16 +106,7 @@ header {
     font-family: "Dongle",sans-serif;   
     
 }
-/*.about .img{
-    display: flex;
-   
-    background: no-repeat center;
-    height: 50vh;
-    width: ;
-    color: rgb(10, 10, 10);
-    min-height: 600px;
-    font-family: "Dongle",sans-serif;
-}*/
+
 section{
     padding: px 0;
 }
@@ -153,16 +147,10 @@ section{
     transform: translate(-50%);
     margin-bottom: 20px;
 }
-/*.about .title::after{
-    content: "";
-    position: absolute;
-    width: 120px;
-    height:3px;
-    background: #000;
-    bottom: -7px;
-    left: 50%;
-    transform: translate(-50%);
-}*/
+
+.about .about-content .left{
+
+}
 .about .about-content .left .img{
     height: 320px;
     width: 450px;
