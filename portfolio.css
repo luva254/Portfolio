@@ -127,11 +127,12 @@ section{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 .about .title{
     position: relative;
     font-family: "Dongle",sans-serif;
+    justify-content: center;
     text-align: center;
     margin-right: -390px;
     font-size: 42px;
@@ -139,6 +140,7 @@ section{
     margin-bottom: 30px;
     padding-bottom: 10px;
     margin-top: 20px;
+    margin-left: 270px;
 }
 .about .title::before{
     content: "";
@@ -149,10 +151,21 @@ section{
     bottom: 0px;
     left: 50%;
     transform: translate(-50%);
+    margin-bottom: 20px;
 }
+/*.about .title::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height:3px;
+    background: #000;
+    bottom: -7px;
+    left: 50%;
+    transform: translate(-50%);
+}*/
 .about .about-content .left .img{
-    height: 400px;
-    width: 400px;
+    height: 320px;
+    width: 450px;
     object-fit: cover;
-    
+    border-radius: 6px;
 }
