@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
-
+@media screen and (min-width: 480px) {
+}
+  
 *{
-   /* box-sizing: border-box;*/
+   box-sizing: border-box;
     margin: 0;
     padding: 0;
     /*background-color:rgb(217, 220, 223);*/
@@ -20,8 +22,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 1%;
+    /*padding: 10px 50%;*/
     background-color:rgb(81, 35, 165);
+    
 
 }
 .navbar-links{
@@ -60,16 +63,18 @@ header {
 }
 .container{
     display: flex;
-    background: url(https://careerswithstem.com.au/wp-content/uploads/2021/01/Should-I-study-computer-science.jpg) no-repeat  ;
-    background-size: 1850px;
+    background: url(https://careerswithstem.com.au/wp-content/uploads/2021/01/Should-I-study-computer-science.jpg) no-repeat ;
+    background-size: 2200px;
     height: 100vh;
     width: 100vw;
     color: rgb(10, 10, 10);
     min-height: 600px;
     font-family: "Dongle",sans-serif;
+    
+
 }
 .container .contentbox{
-    margin: auto 0 auto 70px ;
+    margin: auto 0 auto 100px ;
 
 }
 .container .content .text-1{
@@ -97,9 +102,9 @@ header {
 .about{
 
     display: flex;
-   /* background: url(https://images/godfrey.jpg) no-repeat  ;*/
+    background-color: rgb(209, 205, 205);
     background-size: 1850px;
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     color: rgb(10, 10, 10);
     min-height: 600px;
@@ -108,19 +113,15 @@ header {
 }
 
 section{
-    padding: px 0;
+    padding: 10px 1%;
 }
-.about{
-    font-family: "Dongle",sans-serif;
-    
-    
-}
+
 .about #center{
         
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    display: flex;
+    /*margin-left: auto;*/
+   /* margin-right: auto;*/
+    width: 80%;
     margin-left: 150px;
 }
 .about .title{
@@ -134,7 +135,13 @@ section{
     margin-bottom: 30px;
     padding-bottom: 10px;
     margin-top: 20px;
-    margin-left: -390px;
+
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .about .title::before{
     content: "";
@@ -148,15 +155,19 @@ section{
     margin-bottom: 20px;
 }
 
-.about .about-content .left{
 
-}
 .about .about-content .left .img{
     height: 320px;
     width: 450px;
     object-fit: cover;
     border-radius: 6px;
 }
-#txt{
-    color: #000;
+#text{
+    
+    color: #111;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
 }
+
