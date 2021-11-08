@@ -181,7 +181,7 @@ section{
 .flexbox{
     background-color: rgb(119, 116, 116);
     margin:  auto;
-    display: flex;
+    /*display: flex;*/
     height: 70vh;
     width: 100%;
     /*padding: 10px;*/
@@ -203,4 +203,24 @@ h2{
     height: 200px;
     font-family: "Dongle",sans-serif;
     font-size: 38px;
+    margin-left: 260px;
+}
+.contact{
+    margin-top: -50px;
+
+}
+.contact-box{
+    background-color: rgb(29, 27, 27);
+    margin: auto;
+    margin-top: -20px;
+    margin-left: auto;
+    /*display: flex;*/
+    height: 60vh;
+    width: 102%;
+    padding: 10px;
+}
+h4{
+    margin-left: 400px;
+    font-family: "Dongle",sans-serif;
+    font-size: 42px;
 }
