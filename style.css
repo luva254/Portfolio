@@ -215,7 +215,7 @@ h2{
     margin-top: -20px;
     margin-left: auto;
     /*display: flex;*/
-    height: 60vh;
+    height: 30vh;
     width: 102%;
     padding: 10px;
 }
@@ -223,4 +223,9 @@ h4{
     margin-left: 400px;
     font-family: "Dongle",sans-serif;
     font-size: 42px;
+}
+h5{
+    display: flex;
+    font-size: 30px;
+    font-family: "Dongle",sans-serif;
 }
