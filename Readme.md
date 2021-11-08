@@ -27,7 +27,7 @@ Fork from the remote repository https://github.com/luva254/Portfolio and then cl
 ## Contact
 Reach me through phone:+254743548987 or through email godfrey.luvandale@student.moringaschool.com
 ## Licence
-Permission is hereby granted, free of charge, to any person obtaining a copy
+Permission is hereby granted, free of chargse, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
