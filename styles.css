@@ -9,6 +9,9 @@
     /*background-color:rgb(217, 220, 223);*/
 
 }
+body{
+    overflow: inherit;
+}
 
 a,li,button{
     font-family: "Dongle",sans-serif;
@@ -182,7 +185,7 @@ section{
     background-color: rgb(119, 116, 116);
     margin:  auto;
     /*display: flex;*/
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     /*padding: 10px;*/
 }
@@ -203,10 +206,10 @@ h2{
     height: 200px;
     font-family: "Dongle",sans-serif;
     font-size: 38px;
-    margin-left: 260px;
+    margin-left: 300px;
 }
-.contact{
-    margin-top: -50px;
+.Contact{
+    margin-top: 0px;
 
 }
 .contact-box{
@@ -228,4 +231,23 @@ h5{
     display: flex;
     font-size: 30px;
     font-family: "Dongle",sans-serif;
+    text-align: center;
+    margin-left: 240px;
+}
+h3, .rest{
+    margin-right: 1px;
+    margin-top: 20px;
+}
+h6{
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: "Dongle",sans-serif;
+}
+#alink{
+    margin-right: -10px;
+}
+.Contact .contact-box .icons{
+    
+    margin-right: 380px;
+    
 }
