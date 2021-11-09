@@ -72,7 +72,7 @@ header {
     background: url(https://careerswithstem.com.au/wp-content/uploads/2021/01/Should-I-study-computer-science.jpg) no-repeat ;
     background-size: 2200px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     color: rgb(10, 10, 10);
     min-height: 600px;
     font-family: "Dongle",sans-serif;
