@@ -21,7 +21,7 @@ Portfolio Landing Page
 ## Project Description
 The project is based on a portfolio landing page displaying the skills and projects done by the owner of the portfolio
 ##Demo
-[Demo](https://luva254.github.io/Portfolio/)
+[Demo](https://luva254.github.io/Portfolio-Page/)
 ## Installation
 Fork from the remote repository https://github.com/luva254/Portfolio and then clone it to your local repository
 ## Contact
